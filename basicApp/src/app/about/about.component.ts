@@ -13,4 +13,10 @@ export class AboutComponent {
   handleClick() {
     this.myEvent.emit({ data: this.username });
   }
+
+  random() {
+    console.log(Math.random());
+    return Math.random();
+    16;
+  }
 }
