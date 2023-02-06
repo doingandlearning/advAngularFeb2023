@@ -1,6 +1,6 @@
 <app-todo *ngFor="let todo of todos" [todoDetails]="todo"></app-todo>
 
-<pre>
+<pre [hidden]="false">
 	
 	{{todos | json}}
 </pre>

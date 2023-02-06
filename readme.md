@@ -12,25 +12,27 @@ https://github.com/doingandlearning/advAngularFeb2023
 • 4:30 end
 https://bit.ly/glencore-angular
 ## Monday
-- intro
-- writing code together
-- best practices and performance
-- interpolation {{}}
-- generating stuff
-- pipes
-- components, modules etc
-- bindings
-- architectural
-- complete the routing
-- compare ways to pass data around in an app
-- input/output/event
-- content projection
-- Review Exercise
-- how to migrate from older angular
-- dev tools
+> intro
+> writing code together
+> best practices and performance
+> interpolation {{}}
+> generating stuff
+> pipes
+> components, modules etc
+> bindings
+> architectural
+> complete the routing
+> compare ways to pass data around in an app
+> input/output/event
+> content projection
+> Review Exercise
+> how to migrate from older angular
+> dev tools
 - *ngIf or [disabled]= also consider [hidden]=
 
 Questions:
+- Queues -> how to interact/subscribe/push ... 
+- Websocket - SignalR-JS/SocketIO
 
 ## Tuesday
 - brief review

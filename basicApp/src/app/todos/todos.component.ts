@@ -5,8 +5,7 @@ import { Todo } from '../todo';
   selector: 'app-todos',
   templateUrl: './todos.component.html',
   styleUrls: ['./todos.component.css'],
-
-  // changeDetection: ChangeDetectionStrategy.OnPush,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TodosComponent {
   todos: Todo[] = [
@@ -14,6 +13,10 @@ export class TodosComponent {
     { id: 2, description: 'Go fro a walk', completed: false },
     { id: 3, description: 'Have a nap', completed: false },
   ];
+
+  show() {
+    return false;
+  }
 
   changeArray(): void {
     // this.todos[0].description = 'New description'; // Don't change the data directly!

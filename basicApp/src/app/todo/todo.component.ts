@@ -5,7 +5,7 @@ import { Todo } from '../todo';
   selector: 'app-todo',
   templateUrl: './todo.component.html',
   styleUrls: ['./todo.component.css'],
-  // changeDetection: ChangeDetectionStrategy.OnPush,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TodoComponent {
   @Input() todoDetails!: Todo;
