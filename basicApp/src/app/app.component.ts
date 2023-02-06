@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'basicApp';
   imgName = 'https://http.cat/418';
   name: string = '';
+  timeNow = new Date();
 
   sayHello(name: string) {
     return `Hello ${name}!`;

@@ -1,0 +1,7 @@
+<app-todo *ngFor="let todo of todos" [todoDetails]="todo"></app-todo>
+
+<pre>
+	
+	{{todos | json}}
+</pre>
+<button (click)="changeArray()">Change</button>
