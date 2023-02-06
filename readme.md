@@ -1,13 +1,15 @@
 # Advanced Angular 6th-8th February 2023
 
+https://github.com/doingandlearning/advAngularFeb2023 (https://bit.ly/glencore-angular)
+
 ## Kevin Cunningham - Framework Training
 
 • 9:30 start
 • 11:00 coffee break
-• 12:30 lunch break
+• 1 lunch break
 • 3:00 tea break
 • 4:30 end
-
+https://bit.ly/glencore-angular
 ## Monday
 - intro
 - writing code together
