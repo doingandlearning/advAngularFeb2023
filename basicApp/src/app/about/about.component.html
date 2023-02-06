@@ -1,7 +1,12 @@
 
+<app-layout [headerTemplate]="aboutPage"></app-layout>
+
+<ng-template #aboutPage>
+
 	<p>From template! about works!</p>
 	<p>{{time | date |uppercase}}</p>
 	<input [(ngModel)]="username" />
 
 	<button (click)="handleClick()">Emit my event!</button>
 	<p>{{random()}}</p>
+</ng-template>
