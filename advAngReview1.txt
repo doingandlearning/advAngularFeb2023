@@ -12,6 +12,7 @@ The component will be used for at least two configurations
 Build a harness component (to try out your configurable component)
 Show the harness component in the app.component.html template
 
+
 Optional
 --------
 Configure a default (click) handler for the button which then emits a custom event

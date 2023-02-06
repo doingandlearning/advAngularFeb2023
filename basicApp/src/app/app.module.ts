@@ -9,9 +9,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { CustomPipe } from './custom.pipe';
 import { TodoComponent } from './todo/todo.component';
 import { TodosComponent } from './todos/todos.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutComponent, NotFoundComponent, CustomPipe, TodoComponent, TodosComponent],
+  declarations: [AppComponent, AboutComponent, NotFoundComponent, CustomPipe, TodoComponent, TodosComponent, LayoutComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

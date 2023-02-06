@@ -1,0 +1,24 @@
+<section>
+	This is the layout component!
+	<ng-container *ngTemplateOutlet="headerTemplate ? headerTemplate : defaultHeaderTemplate">
+		
+	</ng-container>
+</section> 
+<section>
+	<router-outlet></router-outlet>
+ </section>
+ <section>
+	<ng-container *ngTemplateOutlet="footerTemplate ? footerTemplate: defaultFooterTemplate">
+	</ng-container>
+ </section>
+
+
+ <ng-template #defaultHeaderTemplate>
+
+ </ng-template>
+ <ng-template #defaultFooterTemplate>
+	<p>This is the default footer</p>
+ </ng-template>
+ <ng-template #defaultBodyTemplate>
+	<p>This is the default body</p>
+ </ng-template>

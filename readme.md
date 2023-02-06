@@ -1,6 +1,7 @@
 # Advanced Angular 6th-8th February 2023
 
-https://github.com/doingandlearning/advAngularFeb2023 (https://bit.ly/glencore-angular)
+https://github.com/doingandlearning/advAngularFeb2023 
+(https://bit.ly/glencore-angular)
 
 ## Kevin Cunningham - Framework Training
 
