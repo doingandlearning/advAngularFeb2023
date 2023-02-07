@@ -37,17 +37,21 @@ Questions:
 ## Tuesday
 > brief review
 > Services
-- HttpClient Module (replaces earlier Http Module)
+> HttpClient Module (replaces earlier Http Module)
+- Review Exercise
 - Forms
 - async pipe
 - subscription: every subscription is destroyed when component is destroyed
 - manually unsubscribe too
 - life-cycle events
-- change detection
-- Review Exercise
+> change detection
 - rxjs, combining data
 
-- questions
+ questions
+- control value accessor
+- router and guarded routes
+- jwt/token service -> outh2
+- store -> story when to use stores
 
 ## Wednesday
 - Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
