@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TodoListsComponent } from './todo-lists/todo-lists.component';
+import { WebSocketChatComponent } from './web-socket-chat/web-socket-chat.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductListComponent, TodoListsComponent],
+  declarations: [AppComponent, ProductListComponent, TodoListsComponent, WebSocketChatComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

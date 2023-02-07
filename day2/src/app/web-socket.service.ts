@@ -17,13 +17,13 @@ export class WebsocketService {
   public messages: Subject<Message>;
 
   constructor() {
-    this.messages = <Subject<Message>>this.connect(CHAT_URL).pipe(
+    this.messages = this.connect(CHAT_URL).pipe(
       map((response: MessageEvent): Message => {
         console.log(response.data);
         let data = JSON.parse(response.data);
         return data;
       })
-    );
+    ) as Subject<Message>;
   }
 
   public connect(url: string): AnonymousSubject<MessageEvent> {
