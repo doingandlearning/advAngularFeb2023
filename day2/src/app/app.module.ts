@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TodoListsComponent } from './todo-lists/todo-lists.component';
 import { WebSocketChatComponent } from './web-socket-chat/web-socket-chat.component';
+import { TemplateFormComponent } from './template-form/template-form.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { WebSocketChatComponent } from './web-socket-chat/web-socket-chat.compon
     ProductListComponent,
     TodoListsComponent,
     WebSocketChatComponent,
+    TemplateFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
