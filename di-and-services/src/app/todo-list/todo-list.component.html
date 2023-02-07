@@ -1,0 +1,13 @@
+<h1>Todo list</h1>
+<div>
+	<div *ngFor="let t of todos">
+		<app-todo-item [description]="t"></app-todo-item>
+	</div>
+</div>
+
+<h1>Todo list [using TodoItemVersion2Component]</h1>
+<div>
+	<div *ngFor="let t of todos">
+		<app-todo-item-version2 [description]="t"></app-todo-item-version2>
+	</div>
+</div>
