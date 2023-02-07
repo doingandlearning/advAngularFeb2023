@@ -12,13 +12,10 @@ export class TodoListsComponent {
   constructor(private todoService: RestService) {}
 
   ngOnInit() {
-    console.log(this.todos);
     this.todoService.getTodos().subscribe({
       next: (response) => {
-        this.todos = [];
-        this.todos = [...response];
+        this.todos = response;
         // multiple statements
-        console.log(this.todos);
       },
       error: (error) => {
         console.error(error);

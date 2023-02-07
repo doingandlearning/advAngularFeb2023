@@ -8,6 +8,7 @@ http://api.openweathermap.org/data/2.5/weather?q=sofia,bg&APPID=48f2d5e18b0d2bc5
 From the returned JSON we will show description and temperature (in Celcius)
 	e.g. myWeatherClassInstance.weatherDescription = this.weatherReport.weather[0].description
 
+
 Write the http call in a service which is invoked when the user clicks a button 
 When the app first loads, make a request using sensible defaults
 
