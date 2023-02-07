@@ -28,7 +28,7 @@ https://bit.ly/glencore-angular
 > Review Exercise
 > how to migrate from older angular
 > dev tools
-- *ngIf or [disabled]= also consider [hidden]=
+> *ngIf or [disabled]= also consider [hidden]=
 
 Questions:
 - Queues -> how to interact/subscribe/push ... 
@@ -46,6 +46,7 @@ Questions:
 - change detection
 - Review Exercise
 - rxjs, combining data
+
 - questions
 
 ## Wednesday
