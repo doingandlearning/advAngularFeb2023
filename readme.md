@@ -1,6 +1,6 @@
 # Advanced Angular 6th-8th February 2023
 
-https://github.com/doingandlearning/advAngularFeb2023 
+https://github.com/doingandlearning/advAngularFeb2023
 (https://bit.ly/glencore-angular)
 
 ## Kevin Cunningham - Framework Training
@@ -35,8 +35,8 @@ Questions:
 - Websocket - SignalR-JS/SocketIO
 
 ## Tuesday
-- brief review
-- Services
+> brief review
+> Services
 - HttpClient Module (replaces earlier Http Module)
 - Forms
 - async pipe
