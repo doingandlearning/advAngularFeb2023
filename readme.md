@@ -36,8 +36,9 @@ Questions:
 
 ## Tuesday
 - brief review
-- HttpClient Module (replaces earlier Http Module)
 - Services
+- HttpClient Module (replaces earlier Http Module)
+- Forms
 - async pipe
 - subscription: every subscription is destroyed when component is destroyed
 - manually unsubscribe too
