@@ -1,0 +1,22 @@
+<pre>
+	{{response}}
+</pre>
+
+<div>
+	<button (click)="handleGetPlanets()">Get Planets</button>
+</div>
+
+<div>
+	<button (click)="handleGetStarships()">Get Starships</button>
+</div>
+
+<div>
+	<input [(ngModel)]="firstResource" placeholder="Resource"/>
+	<button (click)="handleGetByResource(firstResource)">Get this resource</button>
+</div>
+<div>
+	<!-- <input [(ngModel)]="secondResource" placeholder="Resource"/> -->
+	<!-- <input [(ngModel)]="secondId" placeholder="Id"/> -->
+	<button (click)="handleGetByResourceAndId(secondResource, secondId)">Get this resource</button>
+</div>
+

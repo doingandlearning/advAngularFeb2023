@@ -68,15 +68,16 @@ Questions:
 - [x] single source of truth for complex forms? 
 ---
 - [x] Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
+- [x] Review Exercise
 - [ ] Libraries
 - [ ] Testing unit/functional/e2e
 - [ ] obfuscated (obfuscation)
-- [ ] closure
-- [ ] Review Exercise
+- [ ] ~closure~
 - [ ] publish - production - look at the generated code esp js, also aot and jit
-- [ ] locale (if time)
+- [ ] ~locale (if time)~
 - [ ] end of course feedback: https://frameworktraining.typeform.com/to/pWO8UiNz
 
+Any questions? kevin@kevincunningham.co.uk
 
 
 ## Left over questions
