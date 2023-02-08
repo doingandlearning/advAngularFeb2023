@@ -88,7 +88,7 @@ What is the ngrx UPDATE enum?
   Can't find it documented anywhere!
 
 What happens for clash in key of stores?
-
+  
 
 Identity server Angular example
   
