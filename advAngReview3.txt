@@ -1,0 +1,24 @@
+Advanced Angular Review 3
+=========================
+Re-use as much code as possible to build a project that uses the SWAPI service
+	https://swapi.co/api/
+Configure a service to accept a category and a number
+	https://swapi.co/api/people/1     (or starships, species, planets etc.)
+Configure a form to accept inputs for category and a number, then pass these to the service
+
+You could do this by putting the generic reuseable form and the service into a library
+
+Generate component(s) to show some of the returned data 
+NOTE: the returned data is different for each catergory, but they all have a 'name' property
+
+Generate a production build of this application
+
+Optional
+--------
+Generate tanslations by marking up parts of your app and running i18n on it
+Devise tests for your code (components and services)
+Mark some fields for i18n and generate translation files
+When a request is returned, immediately make a further requests for the related films
+(handle multiple streams with a suitable rxjs operator)
+
+

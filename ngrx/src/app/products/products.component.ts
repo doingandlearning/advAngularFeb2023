@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { addProduct } from '../cart-state-store/cart.actions';
 import { Product } from '../product';
 
 export const PRODUCTS = [
@@ -31,11 +33,13 @@ export const PRODUCTS = [
   styleUrls: ['./products.component.css'],
 })
 export class ProductsComponent {
-  constructor() {}
+  constructor(private store: Store) {}
 
   public products(): Product[] {
     return PRODUCTS;
   }
 
-  public buyProduct(product: Product) {}
+  public buyProduct(product: Product) {
+    this.store.dispatch(addProduct(product));
+  }
 }

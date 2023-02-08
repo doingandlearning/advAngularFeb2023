@@ -58,16 +58,16 @@ Questions:
 
 ## Wednesday
 ---
-- [ ] Control Value Accessor => Star Rating
-- [ ] ngrx => simple cart store
-- [ ] router => looking at guards
-- [ ] Login services
+- [x] Control Value Accessor => Star Rating
+- [x] ngrx => simple cart store (actions, reducers, selectors)
+- [x] router => looking at guards (CanActivate, CanActivateChild, CanDeactivate)
+- [x] Login services
 	- Persist to localStorage (ngrx meta resolver or seperate service)
 	- Call and response -- [x] OAuth2 flow -- [x] intermediary server
 	- Social login (https://abacritt.github.io/angularx-social-login/)
-- [ ] single source of truth for complex forms? 
+- [x] single source of truth for complex forms? 
 ---
-- [ ] Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
+- [x] Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
 - [ ] Libraries
 - [ ] Testing unit/functional/e2e
 - [ ] obfuscated (obfuscation)
