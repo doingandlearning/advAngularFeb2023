@@ -11,7 +11,7 @@ https://github.com/doingandlearning/advAngularFeb2023
 - 1 lunch break
 - 3:00 tea break
 - 4:30 end
-https://bit.ly/glencore-angular
+
 ## Monday
 - [x] intro
 - [x] writing code together
