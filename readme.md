@@ -76,3 +76,19 @@ Questions:
 - [ ] publish - production - look at the generated code esp js, also aot and jit
 - [ ] locale (if time)
 - [ ] end of course feedback: https://frameworktraining.typeform.com/to/pWO8UiNz
+
+
+
+## Left over questions
+
+Can ngIf/else use anything other than template? 
+	Nope.
+
+What is the ngrx UPDATE enum?
+  Can't find it documented anywhere!
+
+What happens for clash in key of stores?
+
+
+Identity server Angular example
+  

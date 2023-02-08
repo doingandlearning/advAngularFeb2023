@@ -20,5 +20,3 @@ Devise tests for your code (components and services)
 Mark some fields for i18n and generate translation files
 When a request is returned, immediately make a further requests for the related films
 (handle multiple streams with a suitable rxjs operator)
-
-
