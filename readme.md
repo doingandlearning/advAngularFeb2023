@@ -91,4 +91,6 @@ What happens for clash in key of stores?
   
 
 Identity server Angular example
+  - https://github.com/manfredsteyer/angular-oauth2-oidc - this is a library that interacts with an OIDC compliant identity server.
+  - 
   
