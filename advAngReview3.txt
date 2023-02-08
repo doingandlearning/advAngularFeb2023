@@ -1,9 +1,9 @@
 Advanced Angular Review 3
 =========================
 Re-use as much code as possible to build a project that uses the SWAPI service
-	https://swapi.co/api/
+	https://swapi.dev/api/
 Configure a service to accept a category and a number
-	https://swapi.co/api/people/1     (or starships, species, planets etc.)
+	https://swapi.dev/api/people/1     (or starships, species, planets etc.)
 Configure a form to accept inputs for category and a number, then pass these to the service
 
 You could do this by putting the generic reuseable form and the service into a library
