@@ -3,13 +3,14 @@
 https://github.com/doingandlearning/advAngularFeb2023
 (https://bit.ly/glencore-angular)
 
+
 ## Kevin Cunningham - Framework Training
 
-• 9:30 start
-• 11:00 coffee break
-• 1 lunch break
-• 3:00 tea break
-• 4:30 end
+- 9:30 start
+- 11:00 coffee break
+- 1 lunch break
+- 3:00 tea break
+- 4:30 end
 https://bit.ly/glencore-angular
 ## Monday
 > intro
@@ -74,4 +75,4 @@ Questions:
 - Review Exercise
 - publish - production - look at the generated code esp js, also aot and jit
 - locale (if time)
-- end of course feedback
+- end of course feedback: https://frameworktraining.typeform.com/to/pWO8UiNz
