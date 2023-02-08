@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TemplateFormComponent } from './template-form/template-form.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
     component: WebSocketChatComponent,
   },
   { path: 'template-form', component: TemplateFormComponent },
+  { path: 'reactive-form', component: ReactiveFormsModule },
 ];
 
 @NgModule({

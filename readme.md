@@ -38,7 +38,7 @@ Questions:
 > brief review
 > Services
 > HttpClient Module (replaces earlier Http Module)
-- Review Exercise
+> Review Exercise
 - Forms
 - async pipe
 - subscription: every subscription is destroyed when component is destroyed
@@ -52,15 +52,23 @@ Questions:
 - router and guarded routes
 - jwt/token service -> outh2
 - store -> story when to use stores
+- 200 properties ... dynamically generate based on the ... simplify reactive forms
+- ngrx/redux example
 
 ## Wednesday
+---
+- Control Value Accessor => Star Rating
+- ngrx => simple cart store
+- router => looking at guards
+- Login services
+	- Persist to localStorage (ngrx meta resolver or seperate service)
+	- Call and response -> OAuth2 flow -> intermediary server
+	- Social login (https://abacritt.github.io/angularx-social-login/)
+- single source of truth for complex forms? 
+---
 - Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
 - Libraries
-- Testing unit e2e
-  see https://github.com/juristr/angular-testing-recipes
-  (download it, unzip it, npm install...)
-- snapshots in tests: use JEST https://izifortune.com/snapshot-testing-angular-applications/
-- cache-busting
+- Testing unit/functional/e2e
 - obfuscated (obfuscation)
 - closure
 - Review Exercise
